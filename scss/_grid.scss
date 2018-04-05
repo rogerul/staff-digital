@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+nav {
+  display: inline-block;
+}
+
 // verificar uso de .contenedor-full
 @if $enable-contenedor-full {
   .contenedor-full {
@@ -14,7 +18,7 @@
 @if $enable-contenedor {
   .contenedor {
     max-width: 1200px;
-    width: 70%;
+    width: 75%;
     background-color: rgba(0, 0, 0, .1);
     @include center-horizontal;
   }
