@@ -1,6 +1,7 @@
 body {
   font-family: 'Rubik', sans-serif;
   color: #4B5057;
+  font-size: 15px;
 }
 
 @font-face {
@@ -27,6 +28,12 @@ p {
 
 h1 {
   font-size: 50px;
+}
+
+h2 {
+  font-size: 22px;
+  color: #163D4B;
+  font-weight: 500;
 }
 
 * {

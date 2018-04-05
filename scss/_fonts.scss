@@ -1,6 +1,7 @@
 body {
   font-family: 'Rubik', sans-serif;
   color: $color-text;
+  font-size: $size-text;
 }
 
 @font-face {
@@ -27,4 +28,8 @@ p {
 
 h1 {
   font-size: $size-title;
+}
+
+h2 {
+  @include subtitles;
 }
