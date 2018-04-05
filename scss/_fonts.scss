@@ -1,0 +1,25 @@
+body {
+  font-family: 'Rubik', sans-serif;
+}
+
+@font-face {
+  font-family: 'DIN-Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('DIN-Regular'), url('../fonts/DINR___.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'DIN-Medium';
+  font-style: normal;
+  font-weight: normal;
+  src: local('DIN-Regular'), url('../fonts/DINM___.ttf') format('ttf');
+}
+
+p {
+  color: $color-text;
+}
+
+h1 {
+  font-size: $size-title;
+}

@@ -1,0 +1,28 @@
+.header-wrap {
+  background-color: $color-black;
+
+  .set-logo {
+    border: 1px solid white;
+    display: inline-block;
+    width: 40%;
+
+    img {
+      display: inline-block;
+    }
+  }
+
+  ul {
+    display: inline-block;
+    border: 1px solid white;
+    overflow: hidden;
+    list-style: none;
+    width: 50%;
+
+    li {
+      float: left;
+      color: $color-nav;
+      padding: inherit;
+      max-width: 167px;
+    }
+  }
+}

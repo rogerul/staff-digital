@@ -1,0 +1,21 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+// verificar uso de .contenedor-full
+@if $enable-contenedor-full {
+  .contenedor-full {
+    width: 100%;
+  }
+}
+
+// verificar uso de .contenedor
+@if $enable-contenedor {
+  .contenedor {
+    max-width: 1200px;
+    width: 70%;
+    background-color: rgba(0, 0, 0, .1);
+    @include center-horizontal;
+  }
+}

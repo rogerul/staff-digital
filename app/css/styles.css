@@ -1,0 +1,71 @@
+body {
+  font-family: 'Rubik', sans-serif;
+}
+
+@font-face {
+  font-family: 'DIN-Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local("DIN-Regular"), url("../fonts/DINR___.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: 'DIN-Medium';
+  font-style: normal;
+  font-weight: normal;
+  src: local("DIN-Regular"), url("../fonts/DINM___.ttf") format("ttf");
+}
+
+p {
+  color: #4B5057;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.contenedor-full {
+  width: 100%;
+}
+
+.contenedor {
+  max-width: 1200px;
+  width: 70%;
+  background-color: rgba(0, 0, 0, 0.1);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header-wrap {
+  background-color: #000000;
+}
+
+.header-wrap .set-logo {
+  border: 1px solid white;
+  display: inline-block;
+  width: 40%;
+}
+
+.header-wrap .set-logo img {
+  display: inline-block;
+}
+
+.header-wrap ul {
+  display: inline-block;
+  border: 1px solid white;
+  overflow: hidden;
+  list-style: none;
+  width: 50%;
+}
+
+.header-wrap ul li {
+  float: left;
+  color: #ffffff;
+  padding: inherit;
+  max-width: 167px;
+}
