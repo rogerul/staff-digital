@@ -1,5 +1,5 @@
 .metodologia-wrap {
-  padding-top: 40px;
+  padding-top: $padding-contenedor;
 
   .metodologia-content {
     display: inline-block;
@@ -7,20 +7,37 @@
     width: 50%;
     padding-top: 30px;
     padding-right: 10%;
+
+    p {
+      margin-bottom: 24px;
+    }
+
+    ul {
+      padding-left: 15px;
+      line-height: 1.5em;
+    }
   }
 
   figure {
     display: inline-block;
     width: 50%;
-    //clear: both;
 
     .img-laptop {
       display: block;
-      width: 100%;
+      width: 120%;
       max-width: 725px;
       height: auto;
     }
   }
+}
 
+.consultores-wrap {
+  clear: both;
+  padding-top: 55px;
 
+  .consultores-content {
+    text-align: center;
+    width: 100%;
+    //@include center-horizontal;
+  }
 }
