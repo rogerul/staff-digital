@@ -1,0 +1,26 @@
+.metodologia-wrap {
+  padding-top: 40px;
+
+  .metodologia-content {
+    display: inline-block;
+    float: left;
+    width: 50%;
+    padding-top: 30px;
+    padding-right: 10%;
+  }
+
+  figure {
+    display: inline-block;
+    width: 50%;
+    //clear: both;
+
+    .img-laptop {
+      display: block;
+      width: 100%;
+      max-width: 725px;
+      height: auto;
+    }
+  }
+
+
+}

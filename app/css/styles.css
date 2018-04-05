@@ -43,6 +43,11 @@ h2 {
   box-sizing: border-box;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 nav {
   display: inline-block;
 }
@@ -53,6 +58,7 @@ nav {
 
 .contenedor {
   max-width: 1200px;
+  padding: 0 15px;
   width: 75%;
   background-color: rgba(0, 0, 0, 0.1);
   margin-left: auto;
@@ -82,7 +88,7 @@ nav {
 
 .header-wrap .header-set .set-logo img {
   display: block;
-  max-height: 70px;
+  max-height: 75px;
   width: auto;
 }
 
@@ -108,7 +114,7 @@ nav {
   display: block;
   color: #ffffff;
   width: 100%;
-  line-height: 4.7;
+  line-height: 5;
   position: relative;
 }
 
@@ -148,12 +154,10 @@ nav {
 }
 
 .banner-wrap .banner-set {
-  border: 1px solid red;
   height: 100%;
 }
 
 .banner-wrap .banner-set .banner-content {
-  border: 1px solid white;
   width: 50%;
   position: relative;
   top: 50%;
@@ -161,4 +165,51 @@ nav {
   -webkit-transform: translate(-100%, -50%);
   -ms-transform: translate(-100%, -50%);
   transform: translate(-100%, -50%);
+}
+
+.banner-wrap .banner-set h2.objetivo {
+  color: #80D3AE;
+  font-size: 40px;
+}
+
+.banner-wrap .banner-set h1 {
+  font-size: 50px;
+  color: #ffffff;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.banner-wrap .banner-set p {
+  display: block;
+  font-family: 'DIN-Regular', Arial;
+  font-size: 16px;
+  padding-top: 40px;
+  color: #ffffff;
+  border-top: 1px solid white;
+  text-align: justify;
+}
+
+.metodologia-wrap {
+  padding-top: 40px;
+}
+
+.metodologia-wrap .metodologia-content {
+  display: inline-block;
+  float: left;
+  width: 50%;
+  padding-top: 30px;
+  padding-right: 10%;
+}
+
+.metodologia-wrap figure {
+  display: inline-block;
+  width: 50%;
+}
+
+.metodologia-wrap figure .img-laptop {
+  display: block;
+  width: 100%;
+  max-width: 725px;
+  height: auto;
 }

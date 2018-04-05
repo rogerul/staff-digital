@@ -8,16 +8,36 @@
 
 
     .banner-set {
-      border: 1px solid red;
       height: 100%;
 
       .banner-content {
-        border: 1px solid white;
         width: 50%;
         position: relative;
         top: 50%;
         left: 100%;
         transform: translate(-100%, -50%);
+      }
+
+      h2.objetivo {
+        color: $color-second;
+        font-size: 40px;
+      }
+
+      h1 {
+        @include titles;
+        margin-top: 20px;
+        margin-bottom: 30px;
+      }
+
+      p {
+        display: block;
+        font-family: 'DIN-Regular', Arial;
+        font-size: 16px;
+        padding-top: 40px;
+        color: $color-title;
+        border-top: 1px solid white;
+        text-align: justify;
+
       }
     }
 
