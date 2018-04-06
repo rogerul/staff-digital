@@ -248,6 +248,7 @@ nav {
 
 .metodologia-wrap .metodologia-content p {
   margin-bottom: 24px;
+  text-align: justify;
 }
 
 .metodologia-wrap .metodologia-content ul {
@@ -267,9 +268,39 @@ nav {
   height: auto;
 }
 
+@media screen and (max-width: 1024px) {
+  .metodologia-wrap {
+    border-bottom: 1px solid #80D3AE;
+  }
+  .metodologia-wrap .metodologia-content {
+    width: 100%;
+    float: none;
+  }
+  .metodologia-wrap .metodologia-content h2 {
+    text-align: center;
+  }
+  .metodologia-wrap .metodologia-content p {
+    text-align: center;
+  }
+  .metodologia-wrap .metodologia-content ul {
+    margin-top: 30px;
+  }
+  .metodologia-wrap figure {
+    display: inline-block;
+    width: 100%;
+  }
+  .metodologia-wrap figure .img-laptop {
+    width: 500px;
+    padding-top: 45px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 .consultores-wrap {
   clear: both;
   padding-top: 55px;
+  padding-bottom: 70px;
 }
 
 .consultores-wrap .consultores-content {
@@ -277,12 +308,18 @@ nav {
   width: 100%;
 }
 
+.consultores-wrap .consultores-content h2 {
+  margin-bottom: 16px;
+}
+
 .consultores-wrap .carrusel {
   padding-top: 45px;
 }
 
 .consultores-wrap .carrusel .set-ejecutivo {
-  padding: 0 40px;
+  border: 1px solid #dddddd;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .consultores-wrap .carrusel .set-ejecutivo img {
@@ -305,9 +342,8 @@ nav {
 }
 
 @media screen and (max-width: 1024px) {
-  .consultores-wrap .metodologia-content {
-    width: 100%;
-    float: none;
-    background-color: red;
+  .consultores-wrap .carrusel .set-ejecutivo {
+    margin-left: 30px;
+    margin-right: 30px;
   }
 }
