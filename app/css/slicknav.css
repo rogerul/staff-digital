@@ -94,7 +94,7 @@
     background-color: #fff; }
 
 .slicknav_btn {
-  margin: 5px 5px 6px;
+  margin: 5px 15px 6px;
   text-decoration: none;
   /*text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);*/
   -webkit-border-radius: 50%;
@@ -161,3 +161,17 @@
   line-height: 30px;
   padding: 7px 12px;
   height: 44px; }
+
+.slicknav_menu {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .slicknav_menu {
+    display: block;
+  }
+
+  .slicknav_menu:before {
+    margin: 0px 0px 0px 10px
+  }
+}

@@ -151,20 +151,15 @@ nav {
   transform: translateY(-6px);
 }
 
-.header-wrap .mobileMenu {
-  position: fixed;
-}
-
-.slicknav_menu {
-  display: none;
+@media screen and (max-width: 1200px) {
+  .header-wrap .header-set {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .header-wrap {
     display: none;
-  }
-  .slicknav_menu {
-    display: block;
   }
 }
 
