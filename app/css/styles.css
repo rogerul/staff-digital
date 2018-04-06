@@ -273,6 +273,24 @@ nav {
   }
 }
 
+@media screen and (max-width: 480px) {
+  .banner-wrap .banner-set .banner-content {
+    width: 90%;
+  }
+  .banner-wrap .banner-set h2.objetivo {
+    font-size: 22px;
+    margin-bottom: 5px;
+  }
+  .banner-wrap .banner-set h1 {
+    font-size: 32px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  .banner-wrap .banner-set p {
+    font-size: 14px;
+  }
+}
+
 .metodologia-wrap {
   padding-top: 45px;
   padding-bottom: 45px;
