@@ -34,3 +34,7 @@ h1 {
 h2 {
   @include subtitles;
 }
+
+strong {
+  @include strongs;
+}

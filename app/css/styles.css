@@ -38,6 +38,12 @@ h2 {
   margin-bottom: 20px;
 }
 
+strong {
+  font-family: 'DIN-Medium', Arial;
+  font-size: 17px;
+  display: block;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -145,6 +151,23 @@ nav {
   transform: translateY(-6px);
 }
 
+.header-wrap .mobileMenu {
+  position: fixed;
+}
+
+.slicknav_menu {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .header-wrap {
+    display: none;
+  }
+  .slicknav_menu {
+    display: block;
+  }
+}
+
 .banner-wrap {
   background: url("../images/banner.jpg");
   background-size: cover;
@@ -193,13 +216,14 @@ nav {
 
 .metodologia-wrap {
   padding-top: 45px;
+  padding-bottom: 45px;
 }
 
 .metodologia-wrap .metodologia-content {
   display: inline-block;
   float: left;
   width: 50%;
-  padding-top: 30px;
+  padding-top: 20px;
   padding-right: 10%;
 }
 
@@ -219,7 +243,7 @@ nav {
 
 .metodologia-wrap figure .img-laptop {
   display: block;
-  width: 120%;
+  width: 110%;
   max-width: 725px;
   height: auto;
 }
@@ -232,4 +256,31 @@ nav {
 .consultores-wrap .consultores-content {
   text-align: center;
   width: 100%;
+}
+
+.consultores-wrap .carrusel {
+  padding-top: 45px;
+}
+
+.consultores-wrap .carrusel .set-ejecutivo {
+  padding: 0 40px;
+}
+
+.consultores-wrap .carrusel .set-ejecutivo img {
+  width: 100%;
+}
+
+.consultores-wrap .carrusel .set-ejecutivo p {
+  font-size: 14px;
+  text-align: justify;
+}
+
+.consultores-wrap .carrusel .set-ejecutivo strong {
+  display: block;
+  padding: 10px 0 5px 0;
+}
+
+.consultores-wrap .carrusel .set-ejecutivo small {
+  display: block;
+  padding: 5px 0 15px 0;
 }

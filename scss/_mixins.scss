@@ -33,3 +33,9 @@
   color: $color-title;
   font-weight: 500;
 }
+
+@mixin strongs {
+  font-family: 'DIN-Medium', Arial;
+  font-size: $size-strong;
+  display: block;
+}

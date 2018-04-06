@@ -9,14 +9,20 @@
     <link href="https://fonts.googleapis.com/css?family=Rubik:400,500" rel="stylesheet">
     <link href="css/normalize.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="slick/slick.css" rel="stylesheet" type="text/css">
+    <link href="slick/slick-theme.css" rel="stylesheet" type="text/css">
+    <link href="css/slicknav.css" rel="stylesheet" type="text/css">
+
 </head>
+
 <body>
+
     <header>
         <div class="contenedor-full header-wrap">
             <div class="contenedor header-set">
                 <div class="set-logo"><img src="images/logo.png"></div>
                 <nav class="navs-wrap" >
-                    <ul>
+                    <ul id="menu">
                         <li><a href="#">Nosotros</a></li>
                         <li><a href="#">Servicios</a></li>
                         <li><a href="#">Blog</a></li>
@@ -27,85 +33,94 @@
         </div>
     </header>
 
-    <section class="section-banner">
-        <div class="contenedor-full banner-wrap">
-            <div class="contenedor banner-set">
-                <div class="banner-content">
-                    <h2 class="objetivo">Nuestro objetivo:</h2>
-                    <h1>
-                        incrementar el valor
-                        de tu negocio
-                    </h1>
-                    <p>
-                        En SVC entendemos que los negocios extraordinarios se crean en las líneas que están por encima de la utilidad operativa dentro del estado de resultados, es decir, en el espacio donde la estrategia y la consultoría enfocada en el valor cobran relevancia
-                    </p>
+        <section class="section-banner">
+            <div class="contenedor-full banner-wrap">
+                <div class="contenedor banner-set">
+                    <div class="banner-content">
+                        <h2 class="objetivo">Nuestro objetivo:</h2>
+                        <h1>
+                            incrementar el valor
+                            de tu negocio
+                        </h1>
+                        <p>
+                            En SVC entendemos que los negocios extraordinarios se crean en las líneas que están por encima de la utilidad operativa dentro del estado de resultados, es decir, en el espacio donde la estrategia y la consultoría enfocada en el valor cobran relevancia
+                        </p>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section class="section-contenido">
-        <div class="contenedor contenido">
-            <div class="metodologia-wrap">
-                <div class="metodologia-content">
-                    <h2>Nuestra metodología</h2>
-                    <p>A través de la elaboración de un modelo financiero, analizamos junto contigo el modelo de negocio para tu empresa o emprendimiento. Con ello podremos determinar, por ejemplo:</p>
-                    <ul>
-                        <li><span>Los productos o servicios más rentables</span></li>
-                        <li><span>El tamaño de negocio mínimo</span></li>
-                        <li><span>La conveniencia entre comprar o alquilar un activo</span></li>
-                        <li><span>La conveniencia entre desarrollar tareas in-house o tercerizarlas</span></li>
-                        <li><span>El mejor camino para lograr el crecimiento del negocio</span></li>
-                        <li><span>El esquema de financiamiento más conveniente</span></li>
-                        <li><span>Los aspectos contables y de planeamiento tributario a considerar</span></li>
-                    </ul>
-                </div>
-                <figure>
-                    <img class="img-laptop" src="images/laptop.png">
-                </figure>
-            </div> <!--fin .metodologia-wrap -->
 
-            <div class="consultores-wrap">
-                <div class="consultores-content">
-                    <h2>Te ofrecemos un equipo senior de consultores</h2>
-                    <p>con amplia experiencia en finanzas corporativas y estrategia,<br>
-                        dedicados de forma exclusiva. </p>
-                </div>
-                <div class="carrusel-consultores">
-                    <div>
-                        <img src="images/ejecutiva.jpg" alt="">
-                        <strong>Rodrigo Cruz B.</strong>
-                        <small>Gerente general</small>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip sequat.</p>
+
+
+        <section class="section-contenido">
+            <div class="contenedor contenido">
+                <div class="metodologia-wrap">
+                    <div class="metodologia-content">
+                        <h2>Nuestra metodología</h2>
+                        <p>A través de la elaboración de un modelo financiero, analizamos junto contigo el modelo de negocio para tu empresa o emprendimiento. Con ello podremos determinar, por ejemplo:</p>
+                        <ul>
+                            <li><span>Los productos o servicios más rentables</span></li>
+                            <li><span>El tamaño de negocio mínimo</span></li>
+                            <li><span>La conveniencia entre comprar o alquilar un activo</span></li>
+                            <li><span>La conveniencia entre desarrollar tareas in-house o tercerizarlas</span></li>
+                            <li><span>El mejor camino para lograr el crecimiento del negocio</span></li>
+                            <li><span>El esquema de financiamiento más conveniente</span></li>
+                            <li><span>Los aspectos contables y de planeamiento tributario a considerar</span></li>
+                        </ul>
                     </div>
-                    <div>
-                        <img src="images/ejecutiva2.jpg" alt="">
-                        <strong>Rodrigo Cruz B.</strong>
-                        <small>Gerente general</small>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip sequat.</p>
+                    <figure>
+                        <img class="img-laptop" src="images/laptop.png">
+                    </figure>
+                </div> <!--fin .metodologia-wrap -->
+
+                <div class="consultores-wrap">
+                    <div class="consultores-content">
+                        <h2>Te ofrecemos un equipo senior de consultores</h2>
+                        <p>con amplia experiencia en finanzas corporativas y estrategia,<br>
+                            dedicados de forma exclusiva. </p>
                     </div>
-                    <div>
-                        <img src="images/ejecutivo3.jpg" alt="">
-                        <strong>Rodrigo Cruz B.</strong>
-                        <small>Gerente general</small>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip sequat.</p>
+                    <div class="carrusel autoplay">
+                        <div class="set-ejecutivo">
+                            <img src="images/ejecutiva.jpg" alt="">
+                            <strong>Rodrigo Cruz B.</strong>
+                            <small>Gerente general</small>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip sequat.</p>
+                        </div>
+                        <div class="set-ejecutivo">
+                            <img src="images/ejecutiva2.jpg" alt="">
+                            <strong>Rodrigo Cruz B.</strong>
+                            <small>Gerente general</small>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip sequat.</p>
+                        </div>
+                        <div class="set-ejecutivo">
+                            <img src="images/ejecutivo3.jpg" alt="">
+                            <strong>Rodrigo Cruz B.</strong>
+                            <small>Gerente general</small>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip sequat.</p>
+                        </div>
+                        <div class="set-ejecutivo">
+                            <img src="images/ejecutivo1.jpg" alt="">
+                            <strong>Rodrigo Cruz B.</strong>
+                            <small>Gerente general</small>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip sequat.</p>
+                        </div>
+                        <div class="set-ejecutivo">
+                            <img src="images/ejecutivo2.jpg" alt="">
+                            <strong>Rodrigo Cruz B.</strong>
+                            <small>Gerente general</small>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip sequat.</p>
+                        </div>
                     </div>
-                    <div>
-                        <img src="images/ejecutivo1.jpg" alt="">
-                        <strong>Rodrigo Cruz B.</strong>
-                        <small>Gerente general</small>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip sequat.</p>
-                    </div>
-                    <div>
-                        <img src="images/ejecutivo2.jpg" alt="">
-                        <strong>Rodrigo Cruz B.</strong>
-                        <small>Gerente general</small>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip sequat.</p>
-                    </div>
-                </div>
-            </div> <!-- fin .consultores-wrap -->
-        </div>
-    </section>
+                </div> <!-- fin .consultores-wrap -->
+            </div>
+        </section>
+
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.slicknav.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+
 
 </body>
 </html>

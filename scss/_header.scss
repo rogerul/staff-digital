@@ -1,7 +1,6 @@
 .header-wrap {
   background-color: $color-black;
 
-
   .header-set {
     display: flex;
     align-items: center;
@@ -49,4 +48,22 @@
       }
     }
   }
+  .mobileMenu {
+    position: fixed;
+  }
 }
+
+.slicknav_menu {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .header-wrap {
+    display: none;
+  }
+
+  .slicknav_menu {
+    display: block;
+  }
+}
+
