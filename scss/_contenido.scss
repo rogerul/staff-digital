@@ -27,6 +27,7 @@
     .img-laptop {
       display: block;
       width: 110%;
+      min-width: 300px;
       max-width: 725px;
       height: auto;
     }
@@ -34,9 +35,11 @@
 
   @media screen and (max-width: 1024px) {
     border-bottom: 1px solid #80D3AE;
+
     .metodologia-content {
       width: 100%;
       float: none;
+      padding-right: 0;
 
       h2 {
         text-align: center;
@@ -44,6 +47,7 @@
 
       p {
         text-align: center;
+        padding: 0 40px;
       }
 
       ul {
@@ -62,7 +66,36 @@
       }
     }
   }
+
+  @media screen and (max-width: 768px) {
+      //width: 100%;
+  }
+
+  @media screen and (max-width: 700px) {
+
+    figure {
+      //border: 1px solid black;
+
+      .img-laptop {
+        width: 80%;
+        padding-top: $padding-contenedor;
+        @include center-horizontal;
+      }
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .metodologia-content {
+
+      p {
+        padding: 0;
+      }
+    }
+
+  }
 }
+
+// Consultores Carrusel.
 
 .consultores-wrap {
   clear: both;
@@ -116,5 +149,25 @@
       }
     }
   }
+}
 
+@media screen and (max-width: 768px) {
+  .contenedor {
+    width: 90%;
+  }
+
+  @media screen and (max-width: 480px) {
+    .set-ejecutivo {
+      margin-left: 0;
+      margin-right: 0;
+
+      img {
+        width: 100%;
+      }
+
+      p {
+        display: none;
+      }
+    }
+  }
 }

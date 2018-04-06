@@ -43,7 +43,7 @@
   @media screen and (max-width: 1024px) {
     background-position: center bottom;
     background-size: cover;
-    height: calc(100vh - 250px);
+    height: 500px;
 
     .banner-set {
 
@@ -63,6 +63,58 @@
       p {
         padding-top: 20px;
         text-align: center;
+      }
+    }
+  }
+
+  @media screen and (max-width: 992px) {
+  }
+
+  @media screen and (max-width: 768px) {
+    position: relative;
+    top: 58px;
+    height: 400px;
+    margin-bottom: $padding-contenedor;
+
+    .banner-set {
+      width: 100%;
+
+      .banner-content {
+        width: 70%;
+      }
+
+      h2.objetivo {
+        text-align: center;
+      }
+
+      h1 {
+        text-align: center;
+      }
+
+      p {
+        padding-top: 20px;
+        text-align: center;
+      }
+    }
+  }
+
+  @media screen and (max-width: 700px) {
+
+    .banner-set {
+
+      .banner-content {
+        width: 70%;
+      }
+
+      h2.objetivo {
+        font-size: 32px;
+        margin-bottom: 10px;
+      }
+
+      h1 {
+        font-size: 42px;
+        margin-top: 10px;
+        margin-bottom: 20px;
       }
     }
   }

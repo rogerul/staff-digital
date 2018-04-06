@@ -213,7 +213,7 @@ nav {
   .banner-wrap {
     background-position: center bottom;
     background-size: cover;
-    height: calc(100vh - 250px);
+    height: 500px;
   }
   .banner-wrap .banner-set .banner-content {
     width: 80%;
@@ -230,6 +230,46 @@ nav {
   .banner-wrap .banner-set p {
     padding-top: 20px;
     text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .banner-wrap {
+    position: relative;
+    top: 58px;
+    height: 400px;
+    margin-bottom: 45px;
+  }
+  .banner-wrap .banner-set {
+    width: 100%;
+  }
+  .banner-wrap .banner-set .banner-content {
+    width: 70%;
+  }
+  .banner-wrap .banner-set h2.objetivo {
+    text-align: center;
+  }
+  .banner-wrap .banner-set h1 {
+    text-align: center;
+  }
+  .banner-wrap .banner-set p {
+    padding-top: 20px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .banner-wrap .banner-set .banner-content {
+    width: 70%;
+  }
+  .banner-wrap .banner-set h2.objetivo {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  .banner-wrap .banner-set h1 {
+    font-size: 42px;
+    margin-top: 10px;
+    margin-bottom: 20px;
   }
 }
 
@@ -264,6 +304,7 @@ nav {
 .metodologia-wrap figure .img-laptop {
   display: block;
   width: 110%;
+  min-width: 300px;
   max-width: 725px;
   height: auto;
 }
@@ -275,12 +316,14 @@ nav {
   .metodologia-wrap .metodologia-content {
     width: 100%;
     float: none;
+    padding-right: 0;
   }
   .metodologia-wrap .metodologia-content h2 {
     text-align: center;
   }
   .metodologia-wrap .metodologia-content p {
     text-align: center;
+    padding: 0 40px;
   }
   .metodologia-wrap .metodologia-content ul {
     margin-top: 30px;
@@ -294,6 +337,21 @@ nav {
     padding-top: 45px;
     margin-left: auto;
     margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .metodologia-wrap figure .img-laptop {
+    width: 80%;
+    padding-top: 45px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .metodologia-wrap .metodologia-content p {
+    padding: 0;
   }
 }
 
@@ -345,5 +403,24 @@ nav {
   .consultores-wrap .carrusel .set-ejecutivo {
     margin-left: 30px;
     margin-right: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contenedor {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 768px) and (max-width: 480px) {
+  .set-ejecutivo {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .set-ejecutivo img {
+    width: 100%;
+  }
+  .set-ejecutivo p {
+    display: none;
   }
 }
