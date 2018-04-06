@@ -14,8 +14,8 @@
         width: 50%;
         position: relative;
         top: 50%;
-        left: 100%;
-        transform: translate(-100%, -50%);
+        left: 50%;
+        transform: translate(0, -50%);
       }
 
       h2.objetivo {
@@ -37,9 +37,34 @@
         color: $color-title;
         border-top: 1px solid white;
         text-align: justify;
-
       }
     }
 
+  @media screen and (max-width: 1024px) {
+    background-position: center bottom;
+    background-size: cover;
+    height: calc(100vh - 250px);
 
+    .banner-set {
+
+      .banner-content {
+        width: 80%;
+        transform: translate(-50%, -50%);
+      }
+
+      h2.objetivo {
+        text-align: center;
+      }
+
+      h1 {
+        text-align: center;
+      }
+
+      p {
+        padding-top: 20px;
+        text-align: center;
+      }
+    }
   }
+
+}

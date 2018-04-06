@@ -69,7 +69,13 @@
         padding: 5px 0 15px 0;
       }
     }
+  }
 
-
+  @media screen and (max-width: 1024px) {
+    .metodologia-content {
+      width: 100%;
+      float: none;
+      background-color: red;
+    }
   }
 }

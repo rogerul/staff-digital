@@ -180,10 +180,10 @@ nav {
   width: 50%;
   position: relative;
   top: 50%;
-  left: 100%;
-  -webkit-transform: translate(-100%, -50%);
-  -ms-transform: translate(-100%, -50%);
-  transform: translate(-100%, -50%);
+  left: 50%;
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
 }
 
 .banner-wrap .banner-set h2.objetivo {
@@ -207,6 +207,30 @@ nav {
   color: #ffffff;
   border-top: 1px solid white;
   text-align: justify;
+}
+
+@media screen and (max-width: 1024px) {
+  .banner-wrap {
+    background-position: center bottom;
+    background-size: cover;
+    height: calc(100vh - 250px);
+  }
+  .banner-wrap .banner-set .banner-content {
+    width: 80%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .banner-wrap .banner-set h2.objetivo {
+    text-align: center;
+  }
+  .banner-wrap .banner-set h1 {
+    text-align: center;
+  }
+  .banner-wrap .banner-set p {
+    padding-top: 20px;
+    text-align: center;
+  }
 }
 
 .metodologia-wrap {
@@ -278,4 +302,12 @@ nav {
 .consultores-wrap .carrusel .set-ejecutivo small {
   display: block;
   padding: 5px 0 15px 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .consultores-wrap .metodologia-content {
+    width: 100%;
+    float: none;
+    background-color: red;
+  }
 }
