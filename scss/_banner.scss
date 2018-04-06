@@ -119,6 +119,31 @@
     }
   }
 
+  @media screen and (max-width: 600px) {
+
+    .banner-set {
+
+      .banner-content {
+        width: 70%;
+      }
+
+      h2.objetivo {
+        font-size: 32px;
+        margin-bottom: 8px;
+      }
+
+      h1 {
+        font-size: 42px;
+        margin-top: 8px;
+        margin-bottom: 16px;
+      }
+
+      p {
+        font-size: 14px;
+      }
+    }
+  }
+
   @media screen and (max-width: 480px) {
 
     .banner-set {
@@ -136,10 +161,6 @@
         font-size: 32px;
         margin-top: 5px;
         margin-bottom: 10px;
-      }
-
-      p {
-        font-size: 14px;
       }
     }
   }

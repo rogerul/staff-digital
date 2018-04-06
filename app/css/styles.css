@@ -273,6 +273,24 @@ nav {
   }
 }
 
+@media screen and (max-width: 600px) {
+  .banner-wrap .banner-set .banner-content {
+    width: 70%;
+  }
+  .banner-wrap .banner-set h2.objetivo {
+    font-size: 32px;
+    margin-bottom: 8px;
+  }
+  .banner-wrap .banner-set h1 {
+    font-size: 42px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+  }
+  .banner-wrap .banner-set p {
+    font-size: 14px;
+  }
+}
+
 @media screen and (max-width: 480px) {
   .banner-wrap .banner-set .banner-content {
     width: 90%;
@@ -285,9 +303,6 @@ nav {
     font-size: 32px;
     margin-top: 5px;
     margin-bottom: 10px;
-  }
-  .banner-wrap .banner-set p {
-    font-size: 14px;
   }
 }
 
